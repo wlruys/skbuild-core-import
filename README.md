@@ -20,7 +20,9 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'example.nested.common'
 ```
 
-The issue is that the relative import in `example/nested/impl.pyx` doesn't redirect to the outer directory.
+The observed behavior is that the relative import in `example/nested/impl.pyx` doesn't redirect to the outer directory.
+
+
 In impl.pyx:
 
 ```
