@@ -1,0 +1,5 @@
+# ninja log v5
+1	551	1698125548261724750	src/example/nested/impl.cpp	43db6bf959c10363
+1	551	1698125548261724750	/Users/wlruys/syncthing/workspace/scikit-build/test_project/build/src/example/nested/impl.cpp	43db6bf959c10363
+551	963	1698125548720330080	src/example/nested/CMakeFiles/impl.dir/impl.cpp.o	dc0ca374a65b3f52
+965	1004	1698125548762952610	src/example/nested/impl.cpython-311-darwin.so	b35d188295c3247c

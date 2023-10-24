@@ -2,7 +2,7 @@
   "source_dir": "/Users/wlruys/syncthing/workspace/scikit-build/test_project",
   "build_dir": "/Users/wlruys/syncthing/workspace/scikit-build/test_project/build",
   "cmake_path": "/opt/homebrew/bin/cmake",
-  "skbuild_path": "/Users/wlruys/micromamba/envs/311/lib/python3.11/site-packages/scikit_build_core",
+  "skbuild_path": "/private/var/folders/m4/yhfhyrzd1g9_n_n17jtzc8tm0000gn/T/pip-build-env-dysuud9z/overlay/lib/python3.11/site-packages/scikit_build_core",
   "skbuild_version": "0.6.0",
   "python_executable": "/Users/wlruys/micromamba/envs/311/bin/python3.11"
 }

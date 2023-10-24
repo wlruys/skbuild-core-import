@@ -23,9 +23,6 @@ CMAKE_AR:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ar
 //No help, variable specified on the command line.
 CMAKE_BUILD_TYPE:STRING=Release
 
-//Enable/Disable color output during build.
-CMAKE_COLOR_MAKEFILE:BOOL=ON
-
 //CXX compiler
 CMAKE_CXX_COMPILER:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/c++
 
@@ -80,7 +77,7 @@ CMAKE_INSTALL_PREFIX:PATH=/usr/local
 CMAKE_LINKER:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ld
 
 //No help, variable specified on the command line.
-CMAKE_MAKE_PROGRAM:UNINITIALIZED=/usr/bin/make
+CMAKE_MAKE_PROGRAM:UNINITIALIZED=/private/var/folders/m4/yhfhyrzd1g9_n_n17jtzc8tm0000gn/T/pip-build-env-dysuud9z/normal/lib/python3.11/site-packages/ninja/data/bin/ninja
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -122,7 +119,7 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 // inside the indicated SDK.
 CMAKE_OSX_SYSROOT:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
 
-CMAKE_PREFIX_PATH:PATH=/Users/wlruys/micromamba/envs/311/lib/python3.11/site-packages
+CMAKE_PREFIX_PATH:PATH=/Users/wlruys/micromamba/envs/311/lib/python3.11/site-packages;/private/var/folders/m4/yhfhyrzd1g9_n_n17jtzc8tm0000gn/T/pip-build-env-dysuud9z/overlay/lib/python3.11/site-packages
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
@@ -199,7 +196,7 @@ CMAKE_TAPI:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/tapi
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Path to a program.
-CYTHON:FILEPATH=/Users/wlruys/micromamba/envs/311/bin/cython
+CYTHON:FILEPATH=/private/var/folders/m4/yhfhyrzd1g9_n_n17jtzc8tm0000gn/T/pip-build-env-dysuud9z/overlay/bin/cython
 
 PYTHON_EXECUTABLE:STRING=/Users/wlruys/micromamba/envs/311/bin/python3.11
 
@@ -211,8 +208,6 @@ Python3_FIND_REGISTRY:STRING=NEVER
 
 Python3_INCLUDE_DIR:PATH=/Users/wlruys/micromamba/envs/311/include/python3.11
 
-Python3_NumPy_INCLUDE_DIR:PATH=/Users/wlruys/micromamba/envs/311/lib/python3.11/site-packages/numpy/core/include
-
 Python3_ROOT_DIR:STRING=/Users/wlruys/micromamba/envs/311
 
 Python_EXECUTABLE:STRING=/Users/wlruys/micromamba/envs/311/bin/python3.11
@@ -221,21 +216,19 @@ Python_FIND_REGISTRY:STRING=NEVER
 
 Python_INCLUDE_DIR:PATH=/Users/wlruys/micromamba/envs/311/include/python3.11
 
-Python_NumPy_INCLUDE_DIR:PATH=/Users/wlruys/micromamba/envs/311/lib/python3.11/site-packages/numpy/core/include
-
 Python_ROOT_DIR:STRING=/Users/wlruys/micromamba/envs/311
 
 SKBUILD:STRING=2
 
 SKBUILD_CORE_VERSION:STRING=0.6.0
 
-SKBUILD_DATA_DIR:PATH=/var/folders/m4/yhfhyrzd1g9_n_n17jtzc8tm0000gn/T/tmpztlgue3g/wheel/data
+SKBUILD_DATA_DIR:PATH=/var/folders/m4/yhfhyrzd1g9_n_n17jtzc8tm0000gn/T/tmpfwth30ns/wheel/data
 
-SKBUILD_HEADERS_DIR:PATH=/var/folders/m4/yhfhyrzd1g9_n_n17jtzc8tm0000gn/T/tmpztlgue3g/wheel/headers
+SKBUILD_HEADERS_DIR:PATH=/var/folders/m4/yhfhyrzd1g9_n_n17jtzc8tm0000gn/T/tmpfwth30ns/wheel/headers
 
-SKBUILD_NULL_DIR:PATH=/var/folders/m4/yhfhyrzd1g9_n_n17jtzc8tm0000gn/T/tmpztlgue3g/wheel/null
+SKBUILD_NULL_DIR:PATH=/var/folders/m4/yhfhyrzd1g9_n_n17jtzc8tm0000gn/T/tmpfwth30ns/wheel/null
 
-SKBUILD_PLATLIB_DIR:PATH=/var/folders/m4/yhfhyrzd1g9_n_n17jtzc8tm0000gn/T/tmpztlgue3g/wheel/platlib
+SKBUILD_PLATLIB_DIR:PATH=/var/folders/m4/yhfhyrzd1g9_n_n17jtzc8tm0000gn/T/tmpfwth30ns/wheel/platlib
 
 SKBUILD_PROJECT_NAME:STRING=example
 
@@ -243,11 +236,11 @@ SKBUILD_PROJECT_VERSION:STRING=0.0.1
 
 SKBUILD_SABI_COMPONENT:STRING=
 
-SKBUILD_SCRIPTS_DIR:PATH=/var/folders/m4/yhfhyrzd1g9_n_n17jtzc8tm0000gn/T/tmpztlgue3g/wheel/scripts
+SKBUILD_SCRIPTS_DIR:PATH=/var/folders/m4/yhfhyrzd1g9_n_n17jtzc8tm0000gn/T/tmpfwth30ns/wheel/scripts
 
 SKBUILD_SOABI:STRING=cpython-311-darwin
 
-SKBUILD_STATE:STRING=editable
+SKBUILD_STATE:STRING=wheel
 
 //Value Computed by CMake
 example_BINARY_DIR:STATIC=/Users/wlruys/syncthing/workspace/scikit-build/test_project/build
@@ -275,8 +268,6 @@ CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=27
 //Patch version of cmake used to create the current loaded cache
 CMAKE_CACHE_PATCH_VERSION:INTERNAL=7
-//ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
-CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake
 //Path to cpack program executable.
@@ -316,7 +307,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
-CMAKE_GENERATOR:INTERNAL=Unix Makefiles
+CMAKE_GENERATOR:INTERNAL=Ninja
 //Generator instance identifier.
 CMAKE_GENERATOR_INSTANCE:INTERNAL=
 //Name of generator platform.
