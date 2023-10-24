@@ -12,7 +12,7 @@ Expected result:
 EXAMPLE_LIB
 ```
 
-Error:
+Error (cython):
 ```
 Traceback (most recent call last):
     from . import impl
@@ -20,11 +20,17 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'example.nested.common'
 ```
 
-The observed behavior is that the relative import in `example/nested/impl.pyx` doesn't redirect to the outer directory.
+Error (Pure Python):
+```
+from . import impl
+from ..common.pure import NAME
+ModuleNotFoundError: No module named 'example.nested.common'
+```
+
+The observed behavior is that the relative import in `example/nested/impl.pyx` / `example/nested/impl.py` doesn't redirect to the outer directory.
 
 
-In impl.pyx:
-
+In `impl.pyx`/`impl.py` the following absolute import works:
 ```
 #ABSOLUTE_IMPORT (WORKS)
 #from example.common.pure import NAME 
@@ -32,6 +38,7 @@ In impl.pyx:
 #RELATIVE_IMPORT (DOESN'T WORK :( )
 from ..common.pure import NAME
 ```
+
 
 
 
