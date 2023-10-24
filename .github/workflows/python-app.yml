@@ -58,7 +58,7 @@ jobs:
     - name: Print site-packages
       run: |
         python -c "import site; print(site.getsitepackages()[0])"
-    - name: Print site-packages
+    - name: Print _example_editable.py
       run: |
         cat $(python -c "import site; print(site.getsitepackages()[0])")/_example_editable.py
     - name: Test with pytest
