@@ -1,0 +1,17 @@
+[build-system]
+requires = ["scikit-build-core", "cython"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "example"
+version = "0.0.1"
+description = ""
+authors = [{ name = 'John Smith', email = 'sample@email.com' }]
+readme = "README.md"
+
+[tool.scikit-build]
+cmake.verbose = true
+wheel.packages = ["src/example"] #, "src/example/nested", "src/example/common"]
+cmake.source-dir = "."
+logging.level = "DEBUG"
+build-dir = "build"
