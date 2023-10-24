@@ -26,7 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install scikit-build-core cython
+        pip install scikit-build-core cython pyproject_metadata pathspec
     - name: Create editable install
       run: |
         pip install --no-build-isolation --config-settings=editable.rebuild=true -ve. 
